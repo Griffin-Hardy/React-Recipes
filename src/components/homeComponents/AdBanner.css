@@ -1,0 +1,47 @@
+.adban-container{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    gap: 30px;
+}
+
+.adban-text{
+    color: white;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: helvetica;
+}
+
+h1{
+    font-size: 70px;
+    color: #FF7F50;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.blue-btn{
+    color: white;
+    background-color: #54b7b7;
+    height: 40px;
+    width: 130px;
+    margin-top: 15px;
+    font-size: large;
+    font-family: helvetica;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-btn:hover{
+    background-color: #008080;
+}

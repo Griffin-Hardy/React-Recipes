@@ -2,7 +2,7 @@ footer{
     height: 150px;
     width: 100%;
     background-color: #3f3f3f;
-    position: absolute;
+    position: relative;
     bottom: 0;
     display: flex;
     justify-content: space-around;
@@ -10,6 +10,7 @@ footer{
     font-size: 20px;
     color: white;
     box-sizing: border-box;
+    margin-top: 100px;
 }
 
 .socials{
