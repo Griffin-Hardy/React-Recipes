@@ -27,7 +27,7 @@ const RecipeContainer = ({recipes}) => {
                 placeholder="Search for a recipe"/>
             </span>
             <div className="recipe-container">
-                <RecipeCard/>
+            {recipeDisplay ? recipeDisplay : <h2>No Recipe found lol</h2>}
             </div>
         </section>
     )

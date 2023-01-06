@@ -1,0 +1,31 @@
+.details-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: auto;
+    margin-top: 7px;
+    font-family: helvetica;
+  }
+
+  .instructions-container {
+    max-width: 550px;
+    box-shadow: 0px 3px 10px black;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 3px;
+  }
+
+  .ingredients-container {
+    width: 300px;
+    box-shadow: 0px 3px 10px black;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 3px;
+  }
+
+  h2{
+    font-size: 30px;
+    text-align: center;
+  }
