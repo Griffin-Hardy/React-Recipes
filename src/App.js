@@ -8,7 +8,7 @@ import DetailScreen from "./components/detailComponents/DetailScreen"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Routes>
         <Route index element={<HomeScreen/>}/>

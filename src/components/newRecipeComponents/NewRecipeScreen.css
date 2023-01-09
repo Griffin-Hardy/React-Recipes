@@ -1,0 +1,91 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: fit-content;
+    gap: 15px;
+    margin-top: 30px;
+    font-family: helvetica;
+  }
+
+  
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form input, form textarea {
+    border: 1px solid #989898;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+
+  form input[type=radio] {
+    height: 35px;
+    width: 35px;
+    border: 3px;
+  }
+
+  form label {
+    font-size: 20px;
+  }
+
+  form h5 {
+    color: black;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .radio-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .radio-container span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+  }
+
+  .ingredient-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+  }
+
+  ul {
+    width: 50%;
+  }
+
+  .orange-btn{
+    color: white;
+    background-color: #FF7F50;
+    height: 40px;
+    width: 130px;
+    margin-top: 15px;
+    font-size: large;
+    font-family: helvetica;
+    border: none;
+    cursor: pointer;
+  }

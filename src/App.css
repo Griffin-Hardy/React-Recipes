@@ -22,3 +22,6 @@ time, mark, audio, video {
 
 /* --------- Begin your CSS Below here --------- */
 
+.app{
+	min-height: calc(100vh - 220px);
+}

@@ -7,7 +7,21 @@
     margin: auto;
     margin-top: 7px;
     font-family: helvetica;
+
   }
+
+  h1{
+    font-family: helvetica;
+    font-size: 40px;
+    color: black;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    min-height: 79.2vh;
+  }
+
 
   .instructions-container {
     max-width: 550px;
@@ -15,6 +29,7 @@
     box-sizing: border-box;
     padding: 12px;
     border-radius: 3px;
+    flex-grow: 1;
   }
 
   .ingredients-container {
